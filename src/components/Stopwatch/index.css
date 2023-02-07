@@ -1,0 +1,74 @@
+/* Write CSS here */
+.main-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 600px;
+  width: 60%;
+  background-color: aliceblue;
+  margin: 30px;
+  font-family: 'roboto';
+}
+.timer-content {
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: aliceblue;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  margin-left: 70px;
+}
+.watch-styles {
+  display: flex;
+  align-items: center;
+}
+.backwtchimg {
+  height: 80%;
+  width: 120px;
+}
+.para {
+  font-family: Roboto;
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 15px;
+}
+.start-button {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: #bfbfbf;
+  height: 25px;
+  width: 60px;
+}
+.stop-button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: #bfbfbf;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 25px;
+  width: 60px;
+}
+.reset-button {
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: #bfbfbf;
+  height: 25px;
+  width: 60px;
+}
+.button-group-styles {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
